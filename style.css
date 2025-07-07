@@ -82,5 +82,26 @@ aba-conteudo-titulo-principal{
   color: var(--verde);
   text-transform: uppercase;
 }
+
+.contador{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.contador-digito{
+  padding: 0 16px;
+  text-align: center;
+  min-height: 100px;
+}
+.contador-digito-numero[
+  font-size: 80px;
+  margin: 0;
+]
+.contador-digito-texto{
+  color: var(--verde);
+  fonte-size: 20px;
+  margin: 0;
+}
+
 @media screen {min-width: 768px;
 }
